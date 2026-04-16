@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="vendors/css/fluid.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/logo3.webp">
+</head>
+
+<body>
+
+    <div class="row">
+        <form class="loginForm">
+
+            <h1 style="color:#fff; text-align:center;">LOGIN</h1>
+
+            <!-- Email -->
+            <div class="row">
+                <div class="col span_1_of_3">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div class="row">
+                <div class="col span_1_of_3">
+                    <label for="password">Password</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="password" id="password" placeholder="Enter password" required>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="row" style="margin-top:20px;">
+                <div class="col span_1_of_3">
+                    <!-- Register Button -->
+                    <input type="button" value="Register" id="registerBtn">
+                </div>
+
+                <div class="col span_2_of_3">
+                    <!-- Login Button -->
+                    <input type="submit" value="Login">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="login.js"></script>
+
+</body>
+</html>
