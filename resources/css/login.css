@@ -46,3 +46,12 @@ label{
     text-align: center;
     ;
 }
+
+input[type=button],input[type=submit]{
+    
+    padding:10px 30px;
+    background-color: #ed07b7;
+    border-radius:200px;
+    display: inline-block;
+
+}
